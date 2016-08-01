@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="carddemo_extras_basestaggered_height1">120dp</dimen>
+    <dimen name="carddemo_extras_basestaggered_height2">150dp</dimen>
+    <dimen name="carddemo_extras_basestaggered_height3">180dp</dimen>
+
+    <dimen name="carddemo_gplay_height">300dp</dimen>
+    <dimen name="toolbar_x2">112dp</dimen>
+</resources>

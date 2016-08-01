@@ -1,0 +1,17 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_pesquisa"
+          android:icon="@drawable/ic_action_search"
+          android:title="Pesquisar"
+          app:showAsAction="always"
+          />
+
+    <item android:id="@+id/item_atualizar"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="Atualizar"
+          app:showAsAction="always"/>
+
+
+</menu>

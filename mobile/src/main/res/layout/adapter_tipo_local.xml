@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp">
+
+        <ImageView
+            android:id="@+id/logo_tipo_local"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_skate_park"
+            android:tint="@color/colorAccent"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/nome_tipo_local"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Skate Park"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

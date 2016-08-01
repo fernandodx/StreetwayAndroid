@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NavDrawer" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.editText" parent="AppTheme">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

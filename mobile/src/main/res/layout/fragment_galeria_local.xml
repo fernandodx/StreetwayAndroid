@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:card="http://schemas.android.com/apk/res-auto"
+             xmlns:fab="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+
+    <it.gmariotti.cardslib.library.extra.staggeredgrid.view.CardGridStaggeredView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card:item_margin="8dp"
+        card:column_count_portrait="3"
+        card:column_count_landscape="3"
+        card:grid_paddingRight="8dp"
+        card:grid_paddingLeft="8dp"
+        android:id="@+id/card_grid_galeria"
+        android:background="@color/colorBackground"/>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_add_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:menu_showShadow="true"
+        fab:menu_colorNormal="@color/colorAccent"
+        fab:menu_colorPressed="@color/colorWhiteTransparent"
+        fab:menu_colorRipple="@color/colorWhiteTransparent"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/escolher_galeria_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mini_galeria"
+            android:padding="2dp"
+            fab:fab_size="mini"
+            fab:menu_colorNormal="@color/colorPrimary"
+            fab:menu_colorPressed="@color/colorPrimaryDark"
+            fab:menu_colorRipple="@color/colorWhiteTransparent"
+            fab:fab_label="Escolher da Galeria"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/tirar_foto_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mini_camera"
+            android:padding="2dp"
+            fab:fab_size="mini"
+            fab:menu_colorNormal="@color/colorPrimary"
+            fab:menu_colorPressed="@color/colorPrimaryDark"
+            fab:menu_colorRipple="@color/colorWhiteTransparent"
+            fab:fab_label="Tirar Foto"/>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+
+
+
+
+</FrameLayout>

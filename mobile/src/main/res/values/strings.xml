@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Streetway</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
+    <string name="use_fingerprint_to_authenticate_title">Usar Fingeprint para o Android?</string>
+    <string name="title_activity_main_mobile">StreetWay</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">970031553058808</string>
+    <string name="facebook_application_id" translatable="false">970031553058808</string>
+    <string name="twitter_app_key">[VALUE]</string>
+    <string name="twitter_app_secret">[VALUE]</string>
+    <string name="msg_campo_obrigatorio">Campo obrigatório</string>
+    <string name="label_erro">Erro</string>
+    <string name="msg_erro_usuario_nao_logado">É necessário realizar um login primeiro!</string>
+    <string name="label_login">Login</string>
+    <string name="label_sucesso">Sucesso</string>
+    <string name="msg_sucesso_local_incluido">Muito legal! Seu local foi incluido no Streetway.</string>
+    <string name="label_ok">OK</string>
+    <string name="label_aguarde">Aguarde</string>
+    <string name="label_carregando_locais">Carregando Locais</string>
+    <string name="msg_alerta_nenhum_comentario_local">Não existe nenhum comentário para esse local, seja o primeiro a comentar!</string>
+    <string name="alerta_msg_curti_acao_logado">Para %s o local e necessário realizar o login.</string>
+    <string name="label_incluido_por">Incluido por: %s</string>
+    <string name="label_em">em %s</string>
+
+</resources>

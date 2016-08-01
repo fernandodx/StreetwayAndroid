@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2DC5AB</color>
+    <color name="colorPrimaryDark">#08967e</color>
+    <color name="colorPrimaryDarkTransparente">#4b08967e</color>
+    <color name="colorAccent">#FF700F</color>
+    <color name="colorBackground">#f1f0f0</color>
+    <color name="colorBackgroundTransparent">#7df1f0f0</color>
+    <color name="colorBackgroundCardView">#f3f9f8</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorAccentTransparent">#80FF700F</color>
+    <color name="colorWhiteTransparent">#80FFFFFF</color>
+    <color name="colorDisibled">#bec2c4</color>
+    <color name="colorCurti">#f2a30d3a</color>
+    <color name="colorComentar">#f20d80a3</color>
+    <color name="white">#ffffff</color>
+
+    <color name="color_alert">#ac2b18</color>
+    <color name="color_info">#f20d80a3</color>
+
+
+    <!--
+    http://paletton.com/#uid=63d0u0koJH0eiREjYM1u9Cu-jsd
+    -->
+
+</resources>

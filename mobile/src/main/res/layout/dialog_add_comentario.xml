@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="Comentar"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_weight="0.1"/>
+
+                <TextView android:id="@+id/fechar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="X"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_weight="0.9"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/comentario_lista"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="0.9"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/colorAccentTransparent"/>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_gravity="bottom"
+                android:padding="4dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/comentario_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_comentario"
+                    android:gravity="top|left"
+                    android:layout_gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:maxLines="5"
+                    android:minLines="2"
+                    android:padding="@dimen/padding_edit_text"
+                    android:scrollbars="vertical"
+                    android:theme="@style/AppTheme.editText"
+                    android:layout_weight="0.7"
+                    android:hint="Escreva um comentário..."
+                    android:textColorHint="@color/colorDisibled"/>
+
+                <ImageView
+                    android:id="@+id/img_enviar"
+                    android:src="@mipmap/ic_enviar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.2"
+                    android:tint="@color/colorDisibled"
+                    android:layout_gravity="center"/>
+
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+
+        </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/layout_nenhum_comentario"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_comentar"
+            android:layout_gravity="center"
+            android:tint="@color/colorDisibled"/>
+
+        <TextView
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_alerta_nenhum_comentario_local"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
